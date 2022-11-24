@@ -12,6 +12,7 @@ pipeline {
     } 
   }
             steps {
+              dir('Core_HelloWorld')
                 sh 'dotnet build'
             }
         }
