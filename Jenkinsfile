@@ -12,7 +12,7 @@ pipeline {
     } 
   }
             steps {
-              sh 'cd Core_HelloWorld/Core_HelloWorld'
+              sh 'cd Core_HelloWorld'
               sh 'pwd'
               sh 'ls -lrt'
                 sh 'dotnet build'
