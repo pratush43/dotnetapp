@@ -11,13 +11,15 @@ pipeline {
     label 'micro'
     } 
   }
-          dir("Core_HelloWorld")
+          
             steps {
+              dir("Core_HelloWorld"){
               sh 'cd Core_HelloWorld'
               sh 'pwd'
               sh 'ls -lrt'
               
                 sh 'dotnet build'
+            }
             }
         }
         
