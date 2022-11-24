@@ -12,7 +12,7 @@ pipeline {
     } 
   }
             steps {
-              dir('Core_HelloWorld')
+              sh 'cd Core_HelloWorld'
                 sh 'dotnet build'
             }
         }
