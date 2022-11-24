@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
           agent {
     node{
-    label 'micro'
+    label 'micro2'
     } 
   }
           
